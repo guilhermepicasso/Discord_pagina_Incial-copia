@@ -1,0 +1,489 @@
+.secao_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 110px;
+    padding: 25px 0px 180px 0px;
+    background-image: url("/public/assets/img/background.svg");
+    background-size: cover;
+    background-position: -430px 0px;
+    background-color: #404eed;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+
+}
+
+.secao1_imgLeft {
+    position: absolute;
+    bottom: 0px;
+    left: -220px;
+
+}
+
+.secao1_imgRight {
+    position: absolute;
+    bottom: 0px;
+    right: -220px;
+
+}
+
+.img_menu {
+    display: none;
+}
+
+.secao_1 header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0px 20px 0px 20px;
+    gap: 40px;
+
+}
+
+.menu_lateral {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.menu_lateral>a {
+    padding: 7px 16px;
+    border-radius: 40px;
+    align-items: center;
+    background-color: #FFFFFF;
+    font-family: "Discord_h1";
+    color: #23272a;
+}
+
+.img_logo {
+    display: block;
+    width: 124px;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.header_menu nav a {
+    padding: 20px;
+    font-family: "Discord_header";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.secao1_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px
+}
+
+.secao1_conteudo>h1 {
+    font-family: "Discord_titulo";
+    text-align: center;
+    font-size: 56px;
+    line-height: 50px;
+    margin-bottom: 40px;
+    color: #FFFFFF;
+}
+
+.secao1_conteudo>p {
+    font-family: "Discord_p";
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.625;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    max-width: 780px;
+}
+
+.conteudo_botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.conteudo_botoes a {
+    font-family: "Discord_header";
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #23272a;
+    padding: 16px 32px;
+    border-radius: 28px;
+    margin: 0px 10px;
+}
+
+.conteudo_botoes>a {
+    display: flex;
+    align-items: center;
+}
+
+.conteudo_botoes>a>svg {
+    margin-right: 10px;
+}
+
+.botaoEscuro {
+    background-color: #23272a !important;
+    color: #FFFFFF !important;
+}
+
+
+
+.secao_padrao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 120px 0px;
+    background-color: #FFFFFF;
+}
+
+.secaoCinza {
+    background-color: #f6f6f6 !important;
+}
+
+.img_padrao {
+    width: 100%;
+    max-width: 678px;
+}
+
+.container_texto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 380px;
+}
+
+.h1_padrao {
+    font-family: "Discord_h1";
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    color: #23272a;
+}
+
+.p_padrao {
+    font-family: "Discord_p";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+.secao_5 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 120px;
+    background-color: #f6f6f6;
+    justify-content: center;
+    align-items: center;
+}
+
+.secao5_texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    width: 100%;
+    max-width: 1100px;
+}
+
+.secao5_texto>h1 {
+    font-family: "Discord_titulo";
+    font-size: 40px;
+    color: #23272a;
+}
+
+.secao5_texto>p {
+    font-family: "Discord_p";
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.secao_5>img {
+    width: 100%;
+    max-width: 1500px;
+}
+
+.secao5_baixar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+}
+
+.secao5_baixar>img {
+    width: 100%;
+    max-width: 1100px;
+}
+
+.secao5_baixar>h2 {
+    font-family: "Discord_Bold";
+    font-size: 40px;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.secao5_baixar>a {
+    background-color: #404eed;
+    color: #FFFFFF;
+    border-radius: 30px;
+    align-items: center;
+    padding: 14px 32px;
+    font-family: "Discord_h1";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.secao5_baixar>a>svg {
+    margin-right: 10px;
+
+}
+
+
+
+.secao_final {
+    display: flex;
+    flex-direction: column;
+    background-color: #23272a;
+    padding: 80px 150px 64px 150px;
+    align-items: center;
+    gap: 20px;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 90%;
+
+}
+
+.categorias {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.categorias>div {
+    display: flex;
+    flex: row;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 220px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.item h3 {
+    font-family: "Discord_header";
+    font-size: 16px;
+    color: #5865f2;
+}
+
+.item a {
+    font-family: "Discord_header";
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.final {
+    border-top: 1px solid #5865f2;
+    width: 90%;
+}
+
+.lingua_link {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 380px;
+    padding: 20px 80px 20px 0px;
+    gap: 30px;
+}
+
+.lingua {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.lingua>img {
+    width: 24px;
+    height: 16px;
+    margin-right: 8px;
+    font-family: "Discord_p";
+    font-size: 14px;
+}
+
+.lingua .imgSelect {
+    width: 18px;
+    height: 6px;
+    margin-left: 8px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.discord_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    color: #FFFFFF;
+}
+
+.discord_logo>a {
+    font-family: "Discord_h1";
+    font-size: 14px;
+    padding: 7px 16px;
+    background-color: #404eed;
+    border-radius: 40px;
+}
+
+@media (max-width: 1024px) {
+    .secao_1 {
+        padding: 100px 0px 290px 0px;
+        gap: 100px;
+        background-image: none;
+        max-width: 1024px;
+    }
+
+    .secao_1 header {
+        background-color: #404eed;
+        padding: 25px;
+        position: fixed;
+        top: 0;
+    }
+
+    .header_menu {
+        display: none;
+    }
+
+    .img_menu {
+        display: block;
+    }
+
+    .secao1_imgRight {
+        display: none;
+    }
+
+    .secao1_imgLeft {
+        width: 550px;
+        left: 50%;
+        transform: translateX(-65%);
+    }
+
+    .secao1_conteudo>h1 {
+        margin-bottom: 16px;
+    }
+
+    .secao_padrao {
+        flex-direction: column;
+    }
+
+    .secao_3 {
+        flex-direction: column-reverse;
+    }
+
+    .container_texto {
+        max-width: 900px;
+    }
+
+    .container_texto>h1 {
+        font-size: 32px;
+    }
+
+    .secao_5 {
+        gap: 0px;
+        padding: 80px;
+    }
+
+    .secao_final {
+        padding: 80px 60px 64px 60px;
+    }
+
+    .categorias {
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .secao1_conteudo {
+        align-items: flex-start;
+        padding: 25px;
+    }
+
+    .secao1_conteudo>h1 {
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+    .secao1_conteudo>p {
+        font-size: 17px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .conteudo_botoes {
+        align-items: center;
+    }
+
+    .container_texto {
+        max-width: 680px;
+        gap: 0px;
+    }
+
+    .container_texto>h1 {
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    .container_texto>p {
+        font-size: 17px;
+    }
+    .secao_5{
+        padding: 80px 30px 64px 30px;
+    }
+
+    .secao5_texto>h1 {
+        font-size: 36px;
+    }
+
+    .secao5_texto>p {
+        font-size: 17px;
+    }
+    .rodape{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .categorias{
+        width: 100%;
+    }
+    .item{
+        max-width: 400px;
+    }
+}

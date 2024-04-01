@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Discord_h1";
+    src: url('../assets/Fonts/652737c30510e4ad4333a424_ggsans-Bold.woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: "Discord_p";
+    src: url('/public/assets/Fonts/652736292cbf8363b43d077a_ggsans-Normal.woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Discord_titulo";
+    src: url("/public/assets/Fonts/65273da62cbf8363b445b021_abcgintonord-800-extrabold.woff2");
+    font-weight: 800;
+}
+@font-face {
+    font-family: "Discord_header";
+    src: url("/public/assets/Fonts/652737c319ba7da75394c4cb_ggsans-Medium.woff2");
+    font-weight: 600;
+}
+@font-face {
+    font-family: "Discord_Bold";
+    src: url("/public/assets/Fonts/65274471f1a58fe9565b9ca9_60ae8e384c11e54fd6986f3b_ABCGintoNormal-Bold.woff");
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Discord_gssans_semibold";
+    src: url("/public/assets/Fonts/652737c319ba7da75394c4dc_ggsans-Semibold.woff2");
+    font-weight: 500;
+}
